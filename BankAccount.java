@@ -1,14 +1,28 @@
-package com.practice;
-class Account{
-private double balance=1000;
-void deposit(double a){balance+=a;}
-void withdraw(double a){if(balance>=a) balance-=a;}
-double getBalance(){return balance;}
+class Account {
+    private double balance = 1000;
+
+    void deposit(double amount) {
+        balance += amount;
+    }
+
+    void withdraw(double amount) {
+        if (balance >= amount) {
+            balance -= amount;
+        }
+    }
+
+    double getBalance() {
+        return balance;
+    }
 }
-public class BankAccount{
-public static void main(String[] args){
-Account a=new Account();
-a.deposit(500);
-a.withdraw(300);
-System.out.println(a.getBalance());
-}}
+
+public class BankAccount {
+    public static void main(String[] args) {
+        Account account = new Account();
+
+        account.deposit(500);
+        account.withdraw(300);
+
+        System.out.println("Current Balance: " + account.getBalance());
+    }
+}
