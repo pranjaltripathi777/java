@@ -1,37 +1,42 @@
-# Java Interview Practice Repository
+# Java Practice Repository
 
-A collection of Java programs created to practice core programming concepts,
-Object-Oriented Programming, Java Collections Framework, Java 8 features,
-Exception Handling, File Handling, and basic Data Structures & Algorithms.
+This repository contains a collection of Java programs created to strengthen my understanding of Core Java, Object-Oriented Programming (OOP), Java Collections Framework, Java 8 features, Exception Handling, File Handling, and basic Data Structures & Algorithms.
 
 ## Topics Covered
-- OOP (Classes, Objects, Encapsulation)
-- Collections (ArrayList, HashMap)
+- Core Java
+- Object-Oriented Programming (OOP)
+- Java Collections Framework (ArrayList, HashMap)
 - Exception Handling
 - File Handling
-- Java 8 Streams
+- Java 8 Stream API
+- Basic Data Structures & Algorithms
+- String Manipulation
+
+## Programs Included
+- Student Management
+- Employee HashMap
+- Bank Account
+- Exception Handling Demo
+- File Write Demo
+- Stream API Example
 - Binary Search
 - Bubble Sort
-- String Manipulation
-- Character Frequency using HashMap
+- Palindrome Checker
+- Character Frequency Counter
 
-## Programs
-1. Student Management
-2. Employee HashMap Example
-3. Bank Account
-4. Exception Demo
-5. File Write Demo
-6. Stream API Example
-7. Binary Search
-8. Bubble Sort
-9. Palindrome Check
-10. Character Frequency Counter
+## Skills Demonstrated
+- Problem Solving
+- Object-Oriented Design
+- Java Collections
+- File Operations
+- Exception Handling
+- Functional Programming with Streams
+- Clean and Readable Code
 
 ## Purpose
-This repository was created for learning, practicing Java concepts, and
-strengthening problem-solving skills through small standalone examples.
+The objective of this repository is to practice Java fundamentals through small, focused programs. Each example demonstrates a specific concept and helps improve coding, debugging, and problem-solving skills.
 
-## Notes
-- Clean and beginner-friendly implementations.
-- Suitable for understanding core Java concepts.
-- Each example focuses on one concept at a time.
+## Technologies
+- Java 8+
+- JDK
+- IntelliJ IDEA / Eclipse / VS Code
